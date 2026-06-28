@@ -1,0 +1,6 @@
+flask>=2.0,<3.0
+flask-socketio==5.3.0
+flask-cors>=3.0
+eventlet>=0.30
+python-socketio==5.11.0
+python-engineio==4.8.0
