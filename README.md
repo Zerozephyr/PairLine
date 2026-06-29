@@ -161,23 +161,13 @@ SERVER_URL = "https://your-domain:5122"      # HTTPS (Nginx)
 
 ---
 
-## 📦 打包为 exe
 
-```bash
-pip install pyinstaller
-pyinstaller PairLine.spec
-```
-
-生成的可执行文件在 `dist/PairLine.exe`。
-
----
 
 ## 📁 项目结构
 
 ```
 PairLine/
 ├── main.py                         # 入口、游戏主循环、场景调度
-├── PairLine.spec                   # PyInstaller 打包配置
 ├── requirements.txt                # 客户端依赖
 ├── config/
 │   ├── settings.py                 # 全局常量（帧率、物理、按键、网络地址）
